@@ -7,7 +7,7 @@ import { Album } from '../album';
   templateUrl: './product-track-listing.component.html',
   styleUrls: ['./product-track-listing.component.css']
 })
-export class ProductTrackListingComponent implements OnInit {
+export class ProductTracklistingComponent implements OnInit {
   albumInfo:Album;
   constructor(private _privateService:ProductService) { }
   
